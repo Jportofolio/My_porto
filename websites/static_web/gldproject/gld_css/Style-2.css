@@ -1,0 +1,207 @@
+/* CSS Document */
+@charset "utf-8";
+body{ margin:0; padding:0; font:Arial; font-size:14px; 
+	  min-height:auto; background:url(../img_gld/gld_back.png) no-repeat scroll; background-color:#003399;
+	  background-size:100% 100%; 
+}
+*{text-decoration:none;}
+a{ text-decoration:none;}
+a:link{text-decoration:none;}
+
+.faceb{ cursor:pointer;}
+.twitt{ cursor:pointer;}
+#header {
+	font-family: Arial; 
+	position: relative;
+	height: 150px; background-color:#000033;
+	
+}
+
+#header a{text-decoration:none;}
+/*Table 2 that contains the Menu and the Slides*/
+table#tab2{ border-collapse:collapse;}
+ table#tit{
+border-collapse:collapse;
+  }
+ table#tit tr a img{text-decoration:none;}
+/*THIS IS THE STARTING STYLE FOR THE TOP MENU
+----------------this- topmenu
+*/
+#tit #menutop{margin:0; padding:0; float:right;}
+#menutop ul{ margin:0;
+            padding:0; display:inline-block;
+			line-height:30px;
+			 }
+#menutop li{list-style:none;
+              float:left;
+			  position:relative;}
+#menutop ul li a{ list-style:none;
+			  float:left; margin-right:0;
+			  position:relative;
+			  font-family:Arial; 
+			  font-size:14px;
+			  text-align:center;
+			  height:30px; color:#FFFFFF;
+			  width:120px; background-color: #0099CC;}
+#menutop ul li a:hover{ text-decoration:underline;}
+
+
+/*CONTENT AND WRAPPER FOR THE PAGE HERE
+----------------this- Wrapper here---
+*/
+#corp{
+	font-size: 12px; text-align:center;
+	position: relative;
+	height:auto;
+}
+/*HERE IS ALL CONTENT FOR THE MENU--
+-----THE MENU, MENU, AND SO SO----
+*/
+ #menu{margin:0; padding:0; float:left; width:860px; background-color: #009900; clear:both; }
+ #menu ul{ margin:0;
+            padding:0; display:inline-block;
+			line-height:30px;}
+ #menu li{list-style:none;
+              float:left;
+			  position:relative;}
+#menu li a{list-style:none;
+			  float:left; margin-right:0;
+			  position:relative;
+			  font-family:Arial; 
+			  font-size:14px;
+			  text-align:center;
+			  height:30px; color:#FFFFFF;
+			  width:122px; background-color: #009900;}
+#menu li a:hover{ background-image: url(../img_gld/puce-menu.gif); background-repeat:no-repeat;}
+
+
+/*THE SLIDER FOR THE WRAPPER*/
+#slides{
+  margin-top:31px; padding:0;
+  width:860px; height:250px; overflow: hidden;
+  border:1px solid #FFFFFF;}
+  
+  
+/*THIS CONTENT RELATED TO CONTENT OF ....DIFFERENT PACKAGES*/
+/*SERVICE PACK JUST After Slider*/
+#sp{padding:3; margin:0px; width:860px; height:auto;
+     border:1px solid #FFFFCC;background-color:#FFFFFF;}
+#sp #adset{ border-collapse:collapse; border:1 solid #FFFFFF; }
+
+#sp #adset tr td{text-align:left; vertical-align:top; padding:0;}
+#sp .roads{width:410px; height:128px; margin-left:7px;
+  border: 1px solid #FFFFFF;  margin:9px;}
+/*Feed back style here >>>*/
+#feedb a{ background:#000033; color:#FFFFFF; font: cambria;
+        font-weight:bold;
+        font-size:13px; /* for firefox, safari, chrome, etc. */
+      -webkit-transform: rotate(-90deg);
+       -moz-transform: rotate(-90deg);
+/* for ie */
+-ms-transform:rotate(-90deg);
+width:150px; height:30px; line-height:30px; text-align:center;
+ position: fixed; top:60px; left:-40px; border:1px solid #009900;}	 
+	 
+#feedb a:hover{color:#FFFF99; background:#006600;}
+	 
+#footer{
+	font-family: Geneva; background-color:#000033;
+	font-size: 12px; border:1px solid #FFFFFF;
+	position: relative; margin:0;
+	height:70px;
+}
+#footer ul{padding:0;}
+#footer li{ list-style:none; text-align:center;
+            font-size:14px; font:cambria;}
+/*content definitionstyloe here >>>*/
+#adset{border-top:2px solid #009900;}
+
+#adset tr td.manag img{ float:left; margin-right:4px; margin-top:3px;}
+#adset tr td.manag b{color:#003399; 
+                     border-bottom:1px solid #009900; 
+					 width:auto; font:cambria; 
+					 font-size:14px; line-height:26px;}
+#adset tr td.manag p{ font:Arial;  
+					  font-size:14px; 
+					  margin:5px; 
+					  padding:2px;}
+/*THI IS THE STYLE FOR PAGE ABOUT US */
+
+#ab-content{ border: 3px solid #FFFFFF; width:860px; height:auto;}
+#ab-content .ab-text{width:860px; height: auto; 
+                        padding:2px; border-top:2px solid #FFFFFF; }
+
+/*This is --*/
+.ab-text b.who-tit1{ font-size:18px; color:#FFFFCC; 
+                     line-height:30px; margin-left:4px;
+					 border-bottom:3px solid #00CC00; }
+					 
+.ab-text b.who-tit2{float:right; font-size:18px; margin-right:50px; 
+                    color:#FFFFCC; line-height:30px; 
+					border-bottom:3px solid #00CC00; }
+					
+.ab-text #who-text{padding:0px; 
+                   border-collapse:collapse;
+				   margin-top:2px;}
+.ab-text #who-text .part-left img{
+float:left; border:1px solid #FFFFCC; margin:4px;
+}
+.ab-text #who-text .part-left{ border-right:2px solid #FFFFCC; }
+.ab-text #who-text .part-left p{
+  color: #DDDDDD; font:Verdana; font-size:14px; font-style: normal; padding:2px;
+ 
+}
+ul li{color: #DDDDDD; font:Verdana; font-size:14px; font-style: normal; 
+      }
+.ab-text #who-text .part-right{ vertical-align:top;
+
+}
+
+/*STYLE FOR THE PAGES SERVICES*/
+.ab-text p.who-tit3{font-size:18px; color:#FFFFCC; width:300px;
+                     line-height:30px; margin-left:4px; margin-top:3px; text-align:center;
+					 border-bottom:3px solid #00CC00; display:inline-table}
+					 
+.ab-text b.who-tit4{font-size:18px; color:#FFFFCC; float:right; margin-top:3px;
+                     line-height:30px; margin-right:70px; text-align:center;
+					 border-bottom:3px solid #00CC00; display: inline-table;  }
+					 
+table#who-text .part-left{ vertical-align:top; padding-left:12px; padding-right:4px; font:Verdana;
+                           font-size: 14px; color:#DDDDDD;}
+table#who-text .part-left h3{background-color: #003399; color:#FFFFFF;
+text-align:center;}
+table#who-text .part-left ul{}
+table#who-text .part-left ul li{font:Verdana; font-size:14px;}
+
+				 
+table#who-text .part-right{
+vertical-align:top; padding-left:12px;
+color:#DDDDDD; font:verdana;
+font-size:14px;
+
+}
+table#who-text .part-right h3{
+background-color: #003399; color:#FFFFFF;
+text-align:center;}
+/*CONTACT PAGE DETAILS HERE*/
+form#cont input:focus{border:1px solid #FF3300;}
+form#cont label{font:Verdana; font-size:14px; color:#FFFFCC;}
+from#cont table#contable tr td{ vertical-align:top;}
+textarea{resize: none;}
+textarea:focus{border:1px solid #FF3300;}
+table#contable tr td.result{ color:#FFFFFF; font:"Courier New", Courier, monospace; font-size:14px;}
+table#who-text .part-right ul.liste li { list-style:none;}
+
+/*GLD VALUES PAGE STYLE HERE*/
+
+.values{ width:auto; line-height:28px; font:Verdana; padding-right:9px;
+         font-size:20px; float:right; border-bottom:2px solid #00CC33;
+		 font-stretch:expanded; color:#FFFFCC;  
+		 margin-top:2px; margin-right:5px;
+		  }
+/*GLD DIRECTORS PAGE STYLE*/
+
+.gld-direct{font-size:18px; color:#FFFFCC; width:400px; margin-left:10px;
+            line-height:30px; border-bottom:2px solid #00CC33;}
+.direcinfo{ margin-left:5px; border-bottom:1px dashed #FFFFCC; height:156px; width:350px;}
+.direcinfo img{ float:left; border:1px solid #FFFFCC; margin:6px;}

@@ -1,0 +1,138 @@
+@charset "utf-8";
+body{ margin:0; padding:0; font:Arial; font-size:14px;
+background: url(../img_gld/gld_back.png) no-repeat scroll; background-color:#003399;
+	  background-size:100% 100%; 
+}
+*{text-decoration:none;}
+a{ text-decoration:none;}
+a:link{text-decoration:none;}
+
+.faceb{ cursor:pointer;}
+.twitt{ cursor:pointer;}
+#header {
+	font-family: Arial; 
+	position: relative;
+	height: 150px; background-color:#000033;
+}
+/*FEEDBACK POPUP FORM ON THE BOTTOM*/
+#feedtext{
+ width:200px; height:300px; background-image:url(../img_gld/back-feed.gif);
+   background-repeat:no-repeat;
+   padding:2px;
+   position:fixed;  color:#FFFFFF; 
+   bottom:-1px; 
+   left:1px;
+}
+
+#header a{text-decoration:none;}
+/*Table 2 that contains the Menu and the Slides*/
+table#tab2{ border-collapse:collapse;}
+ table#tit{
+border-collapse:collapse;
+  }
+ table#tit tr a img{text-decoration:none;}
+/*THIS IS THE STARTING STYLE FOR THE TOP MENU
+----------------this- topmenu
+*/
+#tit #menutop{margin:0; padding:0; float:right;}
+#menutop ul{ margin:0;
+            padding:0; display:inline-block;
+			line-height:30px;
+			 }
+#menutop li{list-style:none;
+              float:left;
+			  position:relative;}
+#menutop ul li a{ list-style:none;
+			  float:left; margin-right:0;
+			  position:relative;
+			  font-family:Arial; 
+			  font-size:14px;
+			  text-align:center;
+			  height:30px; color:#FFFFFF;
+			  width:120px; background-color: #0099CC;}
+#menutop ul li a:hover{ text-decoration:underline;}
+
+
+/*CONTENT AND WRAPPER FOR THE PAGE HERE
+----------------this- Wrapper here---
+*/
+#corp{
+	font-size: 12px; text-align:center;
+	position: relative;
+	height:auto;
+}
+/*HERE IS ALL CONTENT FOR THE MENU--
+-----THE MENU, MENU, AND SO SO----
+*/
+ #menu{margin:0; padding:0; float:right; width:860px; background-color: #009900; }
+ #menu ul{ margin:0;
+            padding:0; display:inline-block;
+			line-height:30px;}
+ #menu li{list-style:none;
+              float:left;
+			  position:relative;}
+#menu li a{list-style:none;
+			  float:left; margin-right:0;
+			  position:relative;
+			  font-family:Arial; 
+			  font-size:14px;
+			  text-align:center;
+			  height:30px; color:#FFFFFF;
+			  width:122px; background-color: #009900;}
+#menu li a:hover{ background-image: url(../img_gld/puce-menu.gif); background-repeat:no-repeat;}
+
+
+/*THE SLIDER FOR THE WRAPPER*/
+#slides{
+  margin-top:31px; padding:0;
+  width:860px; height:250px; overflow: hidden;
+  border:1px solid #FFFFFF;}
+  
+  
+/*THIS CONTENT RELATED TO CONTENT OF ....DIFFERENT PACKAGES*/
+/*SERVICE PACK JUST After Slider*/
+#sp{padding:3; margin:0px; width:860px; height:auto;
+     border:1px solid #FFFFCC;background-color:#FFFFFF;}
+#sp #adset{ border-collapse:collapse; border:1 solid #FFFFFF; }
+
+#sp #adset tr td{text-align:left; vertical-align:top; padding:0;}
+#sp .roads{width:410px; height:128px; margin-left:7px;
+  border: 1px solid #FFFFFF;  margin:9px;}
+/*Feed back style here >>>*/
+#feedb a{ background:#000033; color:#FFFFFF; font: cambria;
+        font-weight:bold;
+        font-size:13px; /* for firefox, safari, chrome, etc. */
+      -webkit-transform: rotate(-90deg);
+       -moz-transform: rotate(-90deg);
+/* for ie */
+-ms-transform:rotate(-90deg);
+width:150px; height:30px; line-height:30px; text-align:center;
+ position: fixed; top:60px; left:-40px; border:1px solid #009900;}	 
+	 
+#feedb a:hover{color:#FFFF99; background:#006600;}
+	 
+#footer{
+	font-family: Geneva; text-align:center;
+	font-size: 12px; border:1px solid #000033;
+	position: relative; background-color:#000033;
+	height:70px;
+}
+#footer ul{padding:0;}
+#footer li{ list-style:none; text-align:center; color:#FFFFFF;
+            font-size:14px; font:cambria;}
+/*content definitionstyloe here >>>*/
+#adset{border-top:2px solid #009900;}
+
+#adset tr td.manag img{ float:left; margin-right:4px; margin-top:3px;}
+#adset tr td.manag b{color:#003399; 
+                     border-bottom:1px solid #009900; 
+					 width:auto; font:cambria; 
+					 font-size:14px; line-height:26px;}
+#adset tr td.manag p{ font:Arial;  
+					  font-size:14px; 
+					  margin:5px; 
+					  padding:2px;}
+/*THI IS THE STYLE FOR PAGE ABOUT US */
+
+#ab-content{ border: 1px solid #FFFFFF; width:860px; height:auto;}
+#ab-content .ab-text{width:860px; height:400px; border-top:2px solid #FFFFCC;}
